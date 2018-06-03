@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
 <style>
 * {
   box-sizing: border-box;
@@ -74,7 +75,7 @@ function filterListItems() {
     let itemText = item.innerText;
     if (sentenceContainsTokens(filterText, itemText)) {
       item.style.display = 'block';
-    }  
+    }
     else if(tokensCheckInArra(filterText,listArray)){
 	item.style.display = 'block';
 
